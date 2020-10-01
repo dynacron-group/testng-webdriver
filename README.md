@@ -32,11 +32,13 @@ Usage
                 </repository>
             </repositories>
             <dependencies>
-                <dependency>
-                    <groupId>com.dev9</groupId>
-                    <artifactId>testng-webdriver</artifactId>
-                    <version>2.14</version>
-                </dependency>
+                <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+                     <dependency>
+                          <groupId>org.testng</groupId>
+                          <artifactId>testng</artifactId>
+                          <version>7.3.0</version>
+                          <scope>test</scope>
+                          </dependency>       
             </dependencies>
         ...
         </project>
